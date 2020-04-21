@@ -99,10 +99,14 @@ li {
 
 ul li a {
   text-decoration: none;
-  background-color: red;
-  border-radius: 3px 3px 0px 0px;
-  padding: 0px 15px;
+  background-color: grey;
+  border-radius: 3px 3px 1px 1px;
+  padding: 1px 15px;
   color: white;
+  transition: ease all 0.5s;
+}
+ul li a:hover {
+  background-color: darkred;
 }
 
 /* .nav-links {
