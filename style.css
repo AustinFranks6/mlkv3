@@ -1,0 +1,199 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  ...;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  ...;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  ...;
+}
+
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Playfair Display", serif;
+}
+body {
+  font-size: 20px;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 22px;
+}
+
+main {
+  padding: 1vh 1vw;
+  background-color: lightgrey;
+}
+
+header {
+  height: 85vh;
+}
+.titlepage {
+  background-image: url("images/mlk.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.titletext {
+  color: white;
+  width: 60%;
+  text-align: center;
+  padding-top: 5vh;
+  transition: ease all 0.5s;
+  padding-left: 5vw;
+}
+
+.quote {
+  color: white;
+}
+
+.resourceslink {
+  text-decoration: none;
+  color: lightgreen;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .titletext {
+    width: 80%;
+    padding-top: 10vh;
+  }
+}
+
+ul {
+  height: 15vh;
+  transition: ease all 0.5s;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+li {
+  flex: 1;
+}
+
+ul li a {
+  text-decoration: none;
+  background-color: red;
+  border-radius: 3px 3px 0px 0px;
+  padding: 0px 15px;
+  color: white;
+}
+
+/* .nav-links {
+  height: 15vh;
+  transition: ease all 0.5s;
+  display: flex;
+  text-align: center;
+}
+.nav-links > li {
+  flex: 1;
+}
+
+.nav-link a {
+  color: white;
+  background-color: red;
+  border-radius: 5px 5px 5px 5px;
+}
+
+nav a:hover {
+  background-color: darkred;
+}
+nav li {
+}
+
+nav a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  .nav-links {
+    flex-wrap: wrap;
+  }
+  .nav-links > li {
+    flex-basis: 50%;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+  .container > li {
+    flex-basis: 100%;
+  }
+  .search {
+    order: 1;
+  }
+} */
+
+.page1 {
+  padding-left: 5%;
+  width: 80%;
+  padding-bottom: 5%;
+}
+.page1 p {
+  color: grey;
+}
+
+.page2 {
+  padding-left: 5%;
+  width: 80%;
+  padding-bottom: 5%;
+}
+.page2 p {
+  color: grey;
+}
+
+.cmon2 {
+  display: flex;
+}
+
+.page3 {
+  padding-left: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+}
+
+.page3 p {
+  color: grey;
+}
+
+.linkpage {
+  background: tan;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.linkpage h3 {
+  padding-left: 5%;
+}
+
+footer {
+  background: snow;
+  border-radius: 0 0 5px 5px;
+  height: 10vh;
+  text-align: center;
+}
